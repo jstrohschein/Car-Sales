@@ -8,7 +8,7 @@ const AddedFeature = props => {
   return (
     <li>
       {/* Add an onClick to run a function to remove a feature */}
-      <button className="button" onClick={(() => dispatch({ type: 'REMOVE_FEATURE', payload: props.feature.name}))} >X</button>
+      <button className="button" onClick={(() => dispatch({ type: 'REMOVE_FEATURE', payload: props.feature}))} >X</button>
       {props.feature.name}
     </li>
   );

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useDispatch } from 'react-redux'
-import { addNewFeature } from '../actions/featuresActions'
 
 const AdditionalFeature = props => {
 
